@@ -40,10 +40,12 @@ export default function Home() {
         <link href='https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap' rel='stylesheet' />
         <link rel='icon' href='/favicon.ico' />
         <meta property='og:title' content='🍉 Zaytri Space 🍉' />
+        <meta property='og:site_name' content='Zaytri' />
         <meta property='og:url' content='https://zaytri.com/' />
         <meta property='og:type' content='website' />
         <meta property='og:image' content='https://zaytri.com/instascreme.png' />
-        <meta property="og:description" content='Welcome to Zaytri Space' />
+        <meta property="og:description" content="Hi!! I am a Twitch streamer with chill vibes, and my pronouns are she/her and he/him!" />
+        <meta name="theme-color" content="#a9e694"></meta>
       </Head>
 
       <div className={styles.spotlight}>
