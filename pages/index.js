@@ -14,8 +14,16 @@ function getRealHeight() {
 
 export default function Home() {
   const [height, setHeight] = useState('1vh')
+  const [refresh, setRefresh] = useState(false)
 
   function handleResize() { setHeight(getRealHeight()) }
+
+  useEffect(() => {
+    if (!refresh) {
+      setRefresh(true)
+      handleResize()
+    }
+  }, [refresh])
 
   useEffect(() => {
     window.addEventListener('resize', handleResize)
