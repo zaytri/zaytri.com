@@ -1,9 +1,31 @@
+import { useState, useEffect } from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+function getRealHeight() {
+  let height = '1vh'
+  if (typeof document !== 'undefined' && document.documentElement) {
+    height = `${document.documentElement.clientHeight / 100}px`
+  } else if (typeof window !== 'undefined') {
+    height = `${window.innerHeight / 100}px`
+  }
+  return height
+}
+
 export default function Home() {
+  const [height, setHeight] = useState('1vh')
+
+  function handleResize() { setHeight(getRealHeight()) }
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize)
+
+    return () => window.removeEventListener('resize', handleResize)
+  })
+
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ '--realHeight': height }}>
       <Head>
         <title>🍉 Zaytri Space 🍉</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
