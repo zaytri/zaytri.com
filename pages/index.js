@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Zaytri</title>
+        <title>🍉 Zaytri Space 🍉</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet" />
         <link rel='icon' href='/favicon.ico' />
@@ -23,7 +23,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.message}>
           <p>You Have Entered</p>
-          <p>Zaytri Space</p>
+          <p>[Zaytri Space]</p>
         </div>
 
         <div className={styles.social}>
