@@ -29,6 +29,7 @@
   margin: 0;
   font-size: calc(var(--realHeight) * 6.5);
   text-shadow:0 calc(var(--realHeight) * .6) 0 #0003, 0 var(--realHeight) 0 #0001;
+  transform: scale(1);
   animation: enter var( --enterTime) var(--easing);
 }
 
@@ -54,6 +55,7 @@
 
 .social a {
   position: absolute;
+  transform: scale(1);
   animation: throw var( --enterTime) var(--easing);
   width: calc(10vmin + 4vmax);
   height: calc(10vmin + 4vmax);
