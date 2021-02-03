@@ -6,6 +6,7 @@ body {
   background-color: #12101c;
   overflow: hidden;
   letter-spacing: 0;
+  height: -webkit-fill-available;
 }
 
 a {
