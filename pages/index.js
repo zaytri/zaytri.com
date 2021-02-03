@@ -36,9 +36,14 @@ export default function Home() {
     <div className={styles.container} style={{ '--realHeight': height }}>
       <Head>
         <title>🍉 Zaytri Space 🍉</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet" />
+        <link rel='preconnect' href='https://fonts.gstatic.com' />
+        <link href='https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap' rel='stylesheet' />
         <link rel='icon' href='/favicon.ico' />
+        <meta property='og:title' content='🍉 Zaytri Space 🍉' />
+        <meta property='og:url' content='https://zaytri.com/' />
+        <meta property='og:type' content='website' />
+        <meta property='og:image' content='https://zaytri.com/instascreme.png' />
+        <meta property="og:description" content='Enter the Portal' />
       </Head>
 
       <div className={styles.spotlight}>
