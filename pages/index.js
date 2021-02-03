@@ -40,7 +40,7 @@ export default function Home() {
         <link href='https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap' rel='stylesheet' />
         <link rel='icon' href='/favicon.ico' />
         <meta property='og:title' content='🍉 Zaytri Space 🍉' />
-        <meta property='og:site_name' content='Zaytri' />
+        {/* <meta property='og:site_name' content='Zaytri' /> */}
         <meta property='og:url' content='https://zaytri.com/' />
         <meta property='og:type' content='website' />
         <meta property='og:image' content='https://zaytri.com/instascreme.png' />
