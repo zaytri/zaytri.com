@@ -43,7 +43,7 @@ export default function Home() {
         <meta property='og:url' content='https://zaytri.com/' />
         <meta property='og:type' content='website' />
         <meta property='og:image' content='https://zaytri.com/instascreme.png' />
-        <meta property="og:description" content='Enter the Portal' />
+        <meta property="og:description" content='Welcome to Zaytri Space' />
       </Head>
 
       <div className={styles.spotlight}>
