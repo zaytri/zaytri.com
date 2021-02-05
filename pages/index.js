@@ -64,7 +64,7 @@ export default function Home() {
         </div>
 
         <div className={styles.social}>
-          <a href='https://www.instagram.com/imzaytri/'>
+          <a href='https://www.instagram.com/imzaytri'>
             <img src='/circle-instagram.png' alt='Instagram Link' />
           </a>
           <a href='https://twitter.com/imzaytri'>
