@@ -67,17 +67,20 @@ export default function Home() {
           <a href='https://www.instagram.com/imzaytri'>
             <img src='/circle-instagram.png' alt='Instagram Link' />
           </a>
+          <a href='https://www.youtube.com/channel/UCIp9bzUH8ylhSZ7e8-Gc_Cg'>
+            <img src='/circle-youtube.png' alt='YouTube Link' />
+          </a>
+          <a href='https://discord.gg/WZHntHpP5x'>
+            <img src='/circle-discord.png' alt='Discord Link' />
+          </a>
+          <a href='https://www.tiktok.com/@imzaytri'>
+            <img src='/circle-tiktok.png' alt='TikTok Link' />
+          </a>
           <a href='https://twitter.com/imzaytri'>
             <img src='/circle-twitter.png' alt='Twitter Link' />
           </a>
           <a href='https://www.twitch.tv/zaytri'>
             <img src='/circle-twitch.png' alt='Twitch Link' />
-          </a>
-          <a href='https://www.youtube.com/channel/UCIp9bzUH8ylhSZ7e8-Gc_Cg'>
-            <img src='/circle-youtube.png' alt='YouTube Link' />
-          </a>
-          <a href='https://www.tiktok.com/@imzaytri'>
-            <img src='/circle-tiktok.png' alt='TikTok Link' />
           </a>
         </div>
       </main>

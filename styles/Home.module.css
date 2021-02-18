@@ -98,6 +98,11 @@
   left: calc(50vw + var(--radius));
 }
 
+.social a:nth-child(6) {
+  bottom: calc(var(--minBottom) + var(--radius) * .2);
+  left: 50vw;
+}
+
 .toad {
   transform-origin: bottom;
   max-height: 100%;
