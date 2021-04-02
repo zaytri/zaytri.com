@@ -70,7 +70,7 @@ export default function Home() {
           <a href='https://www.youtube.com/channel/UCIp9bzUH8ylhSZ7e8-Gc_Cg'>
             <img src='/circle-youtube.png' alt='YouTube Link' />
           </a>
-          <a href='https://discord.gg/WZHntHpP5x'>
+          <a href='https://discord.gg/EbHbBFBcyy'>
             <img src='/circle-discord.png' alt='Discord Link' />
           </a>
           <a href='https://www.tiktok.com/@imzaytri'>
