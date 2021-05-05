@@ -29,12 +29,12 @@
 
 .message p:nth-child(2) {
   margin: 0;
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow:0 .3rem 0 #0003, 0 .5rem 0 #0001;
 }
 
 .message p:nth-child(1) {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-shadow:0 .2rem 0 #0003, 0 .3rem 0 #0001;
   margin-bottom: -1rem;
 }
