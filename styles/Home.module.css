@@ -150,16 +150,12 @@
   --innerShadowBlur: 50px;
 }
 
-.social:hover p {
-  font-size: 1.75rem;
-}
-
 .social:hover .icon {
   width: 2rem;
   height: 2rem;
 }
 
-.social p, .icon {
+.icon {
   transition: all .25s var(--easing);
 }
 
