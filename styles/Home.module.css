@@ -16,20 +16,21 @@
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  align-items: center;
 }
 
 .message {
+  display: block;
   text-align: center;
   color: white;
   font-weight: bold;
+  animation: enter var(--enterTime) var(--easing);
 }
 
 .message p:nth-child(2) {
   margin: 0;
   font-size: 4rem;
   text-shadow:0 .3rem 0 #0003, 0 .5rem 0 #0001;
-  transform: scale(1);
-  opacity: 1;
 }
 
 .message p:nth-child(1) {
@@ -274,5 +275,12 @@
   from {
     transform: rotate(0);
     height: 0;
+  }
+}
+
+@keyframes enter {
+  from {
+    transform: scale(.1);
+    opacity: 0;
   }
 }

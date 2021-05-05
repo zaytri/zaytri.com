@@ -107,7 +107,7 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
         </div>
-        <footer class={styles.footer}><p>Business Contact: business🍉zaytri.com</p></footer>
+        <footer className={styles.footer}><p>Business Contact: business🍉zaytri.com</p></footer>
       </main>
 
 
