@@ -50,7 +50,7 @@
 .footer p {
   color: white;
   font-size: 1.25rem;
-  text-shadow:0 .1rem 0 #0003, 0 .25rem 0 #0001;
+  text-shadow:0 1px 0 #0005, 0 2px 0 #0002;
 }
 
 .socialBox {
