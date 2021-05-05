@@ -20,7 +20,6 @@ a {
   font-family: 'Yusei Magic', sans-serif;
   box-sizing: border-box;
   position: relative;
-  letter-spacing: 0;
 }
 
 .row, .column {
