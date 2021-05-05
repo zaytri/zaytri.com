@@ -1,7 +1,4 @@
 .container {
-  --realHeight: 1vh;
-  height: calc(var(--realHeight) * 100);
-  padding: 0 0.5rem;
   --easing: cubic-bezier(.87,-.41,.19,1.44);
   --enterTime: 1s;
   display: flex;
@@ -43,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .footer p {
@@ -55,7 +52,7 @@
 .socialBox {
   width: 100%;
   align-items: center;
-  padding: 20px 20px 0 20px;
+  padding: 30px 30px 0 30px;
 }
 
 .social {
@@ -222,12 +219,12 @@
 
 .spotlight div {
   position: absolute;
-  height: calc(var(--realHeight) * 120);
+  height: calc(1vh * 120);
   bottom: 0;
   left: 50vw;
-  width: calc(var(--realHeight) * 20);
-  margin-left: calc(var(--realHeight) * -10);
-  margin-bottom: calc(var(--realHeight) * -3.5);
+  width: calc(1vh * 20);
+  margin-left: calc(1vh * -10);
+  margin-bottom: calc(1vh * -3.5);
   opacity: 50%;
   transform-origin: bottom;
   animation: scatter var( --enterTime) var(--easing);
