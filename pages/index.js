@@ -40,21 +40,15 @@ export default function Home() {
         <link href='https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap' rel='stylesheet' />
         <link rel='icon' href='/favicon.ico' />
         <meta property='og:title' content='🍉 Zaytri Space 🍉' />
-        {/* <meta property='og:site_name' content='Zaytri' /> */}
         <meta property='og:url' content='https://zaytri.com/' />
         <meta property='og:type' content='website' />
         <meta property='og:image' content='https://zaytri.com/instascreme.png' />
-        <meta property="og:description" content="Hi!! I am a Twitch streamer with chill vibes, and my pronouns are she/her and he/him!" />
+        <meta property="og:description" content="Hi! I'm Zay (she/her and he/him), 26-year-old nonbinary variety streamer!" />
         <meta name="theme-color" content="#a9e694"></meta>
       </Head>
 
       <div className={styles.spotlight}>
-        <div />
-        <div />
-        <div />
-        <div />
-        <div />
-        <div />
+        <div /><div /><div /><div /><div /><div />
       </div>
 
       <main className={styles.main}>
@@ -63,31 +57,60 @@ export default function Home() {
           <p>[Zaytri Space]</p>
         </div>
 
-        <div className={styles.social}>
-          <a href='https://www.instagram.com/imzaytri'>
-            <img src='/circle-instagram.png' alt='Instagram Link' />
+        <div className={[styles.socialBox, 'column'].join(' ')}>
+          <a className={[styles.twitch, styles.social, 'row'].join(' ')}
+            href='https://www.twitch.tv/zaytri/profile'>
+            <div className={styles.icon} />
+            <p>Twitch</p>
+            <div className={styles.icon} />
           </a>
-          <a href='https://www.youtube.com/channel/UCIp9bzUH8ylhSZ7e8-Gc_Cg'>
-            <img src='/circle-youtube.png' alt='YouTube Link' />
+          <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
+            href='https://strms.net/animated_gradient_frame_by_zaytri'>
+            <div className={styles.icon} />
+            <p>Animated Gradient Frame</p>
+            <div className={styles.icon} />
           </a>
-          <a href='https://discord.gg/EbHbBFBcyy'>
-            <img src='/circle-discord.png' alt='Discord Link' />
+          <a className={[styles.discord, styles.social, 'row'].join(' ')}
+            href='https://discord.gg/EbHbBFBcyy'>
+            <div className={styles.icon} />
+            <p>Discord</p>
+            <div className={styles.icon} />
           </a>
-          <a href='https://www.tiktok.com/@imzaytri'>
-            <img src='/circle-tiktok.png' alt='TikTok Link' />
+          <a className={[styles.twitter, styles.social, 'row'].join(' ')}
+            href='https://twitter.com/imzaytri'>
+            <div className={styles.icon} />
+            <p>Twitter</p>
+            <div className={styles.icon} />
           </a>
-          <a href='https://twitter.com/imzaytri'>
-            <img src='/circle-twitter.png' alt='Twitter Link' />
+          <a className={[styles.tiktok, styles.social, 'row'].join(' ')}
+            href='https://www.tiktok.com/@imzaytri'>
+            <div className={styles.icon} />
+            <p>TikTok</p>
+            <div className={styles.icon} />
           </a>
-          <a href='https://www.twitch.tv/zaytri'>
-            <img src='/circle-twitch.png' alt='Twitch Link' />
+          <a className={[styles.instagram, styles.social, 'row'].join(' ')}
+            href='https://www.instagram.com/imzaytri'>
+            <div className={styles.icon} />
+            <p>Instagram</p>
+            <div className={styles.icon} />
+          </a>
+          <a className={[styles.youtube, styles.social, 'row'].join(' ')}
+            href='https://www.youtube.com/channel/UCIp9bzUH8ylhSZ7e8-Gc_Cg'>
+            <div className={styles.icon} />
+            <p>YouTube</p>
+            <div className={styles.icon} />
+          </a>
+          <a className={[styles.github, styles.social, 'row'].join(' ')}
+            href='https://github.com/zaytri'>
+            <div className={styles.icon} />
+            <p>Github</p>
+            <div className={styles.icon} />
           </a>
         </div>
+        <footer class={styles.footer}><p>Business Contact: business🍉zaytri.com</p></footer>
       </main>
 
-      <footer className={styles.footer}>
-          <img src='/screme.png' alt='Screaming Toad' className={styles.toad} />
-      </footer>
+
     </div>
   )
 }
