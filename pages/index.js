@@ -41,6 +41,12 @@ export default function Home() {
             <p>Animated Gradient Frame</p>
             <div className={styles.icon} />
           </a>
+          <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
+            href='https://github.com/zaytri/stream-elements-widgets/tree/main/LevelUp/themes'>
+            <div className={styles.icon} />
+            <p>Chat Leaderboard Themes</p>
+            <div className={styles.icon} />
+          </a>
           <a className={[styles.discord, styles.social, 'row'].join(' ')}
             href='https://discord.gg/EbHbBFBcyy'>
             <div className={styles.icon} />
