@@ -78,9 +78,15 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a className={[styles.youtube, styles.social, 'row'].join(' ')}
-            href='https://www.youtube.com/channel/UCIp9bzUH8ylhSZ7e8-Gc_Cg'>
+            href='https://www.youtube.com/channel/UC3dubq21i8gOD03BSOL-CbA'>
             <div className={styles.icon} />
             <p>YouTube</p>
+            <div className={styles.icon} />
+          </a>
+          <a className={[styles.youtube, styles.social, 'row'].join(' ')}
+            href='https://www.youtube.com/channel/UCIp9bzUH8ylhSZ7e8-Gc_Cg'>
+            <div className={styles.icon} />
+            <p>YouTube VODs</p>
             <div className={styles.icon} />
           </a>
           <a className={[styles.github, styles.social, 'row'].join(' ')}
