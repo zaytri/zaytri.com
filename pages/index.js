@@ -42,6 +42,12 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
+            href='https://strms.net/chat_leaderboard_by_zaytri'>
+            <div className={styles.icon} />
+            <p>Chat Leaderboard</p>
+            <div className={styles.icon} />
+          </a>
+          <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
             href='https://github.com/zaytri/stream-elements-widgets/tree/main/LevelUp/themes'>
             <div className={styles.icon} />
             <p>Chat Leaderboard Themes</p>
