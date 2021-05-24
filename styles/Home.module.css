@@ -70,7 +70,7 @@
   color: #2d7c13;
   --stripeSize: 35px;
   border: 2px solid #6ec451;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: var(--shadow) #6ec451;
   padding: 10px 16px;
   background-color: #a9e694;
@@ -124,6 +124,13 @@
   border-color: #444;
   box-shadow: var(--shadow) #444;
   background-color: #888;
+}
+
+.ko-fi {
+  color: #0e83b1;
+  border-color: #29ABE0;
+  box-shadow: var(--shadow) #29ABE0;
+  background-color: #7cd7fc;
 }
 
 .social:hover {
@@ -196,6 +203,11 @@
 .widget .icon {
   mask-image: url('https://simpleicons.org/icons/undertale.svg');
   -webkit-mask-image: url('https://simpleicons.org/icons/undertale.svg')
+}
+
+.ko-fi .icon {
+  mask-image: url('https://simpleicons.org/icons/ko-fi.svg');
+  -webkit-mask-image: url('https://simpleicons.org/icons/ko-fi.svg');
 }
 
 .spotlight {

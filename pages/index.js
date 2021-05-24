@@ -89,6 +89,12 @@ export default function Home() {
             <p>YouTube VODs</p>
             <div className={styles.icon} />
           </a>
+          <a className={[styles['ko-fi'], styles.social, 'row'].join(' ')}
+            href='https://ko-fi.com/zaytri'>
+            <div className={styles.icon} />
+            <p>Support me on Ko-fi</p>
+            <div className={styles.icon} />
+          </a>
           <a className={[styles.github, styles.social, 'row'].join(' ')}
             href='https://github.com/zaytri'>
             <div className={styles.icon} />
