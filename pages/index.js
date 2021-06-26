@@ -14,7 +14,7 @@ export default function Home() {
         <meta property='og:url' content='https://zaytri.com/' />
         <meta property='og:type' content='website' />
         <meta property='og:image' content='https://zaytri.com/instascreme.png' />
-        <meta property="og:description" content="Hi! I'm Zay (she/her and he/him), 26-year-old nonbinary variety streamer!" />
+        <meta property="og:description" content="Hi! I'm Zay (she/her and he/him), a nonbinary variety streamer and software developer!" />
         <meta name="theme-color" content="#a9e694"></meta>
       </Head>
 
