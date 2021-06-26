@@ -53,6 +53,12 @@ export default function Home() {
             <p>Chat Leaderboard Themes</p>
             <div className={styles.icon} />
           </a>
+          <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
+            href='https://www.streamelements.com/dashboard/overlays/share/60d70da709f09bf59affb179'>
+            <div className={styles.icon} />
+            <p>Dynamic Chat Bubbles (Beta)</p>
+            <div className={styles.icon} />
+          </a>
           <a className={[styles.discord, styles.social, 'row'].join(' ')}
             href='https://discord.gg/EbHbBFBcyy'>
             <div className={styles.icon} />
