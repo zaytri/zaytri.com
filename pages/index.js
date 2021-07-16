@@ -59,6 +59,12 @@ export default function Home() {
             <p>Animated Gradient Frame</p>
             <div className={styles.icon} />
           </a>
+          <a className={[styles.youtube, styles.social, 'row'].join(' ')}
+            href='https://www.youtube.com/channel/UC3dubq21i8gOD03BSOL-CbA'>
+            <div className={styles.icon} />
+            <p>YouTube</p>
+            <div className={styles.icon} />
+          </a>
           <a className={[styles.discord, styles.social, 'row'].join(' ')}
             href='https://discord.gg/EbHbBFBcyy'>
             <div className={styles.icon} />
@@ -81,12 +87,6 @@ export default function Home() {
             href='https://www.instagram.com/imzaytri'>
             <div className={styles.icon} />
             <p>Instagram</p>
-            <div className={styles.icon} />
-          </a>
-          <a className={[styles.youtube, styles.social, 'row'].join(' ')}
-            href='https://www.youtube.com/channel/UC3dubq21i8gOD03BSOL-CbA'>
-            <div className={styles.icon} />
-            <p>YouTube</p>
             <div className={styles.icon} />
           </a>
           <a className={[styles.youtube, styles.social, 'row'].join(' ')}
