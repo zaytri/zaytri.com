@@ -36,9 +36,9 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
-            href='https://strms.net/animated_gradient_frame_by_zaytri'>
+            href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'>
             <div className={styles.icon} />
-            <p>Animated Gradient Frame</p>
+            <p>Dynamic Chat Bubbles</p>
             <div className={styles.icon} />
           </a>
           <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
@@ -54,9 +54,9 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
-            href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'>
+            href='https://strms.net/animated_gradient_frame_by_zaytri'>
             <div className={styles.icon} />
-            <p>Dynamic Chat Bubbles</p>
+            <p>Animated Gradient Frame</p>
             <div className={styles.icon} />
           </a>
           <a className={[styles.discord, styles.social, 'row'].join(' ')}
