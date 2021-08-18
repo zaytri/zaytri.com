@@ -35,6 +35,12 @@ export default function Home() {
             <p>Twitch</p>
             <div className={styles.icon} />
           </a>
+          <a className={[styles.twitch, styles.social, 'row'].join(' ')}
+            href='https://www.twitch.tv/zaytri/profile'>
+            <div className={styles.icon} />
+            <p>Twitch UserVoice - IRC Follow Tag</p>
+            <div className={styles.icon} />
+          </a>
           <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
             href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'>
             <div className={styles.icon} />
