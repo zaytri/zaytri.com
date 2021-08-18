@@ -36,7 +36,7 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a className={[styles.twitch, styles.social, 'row'].join(' ')}
-            href='https://www.twitch.tv/zaytri/profile'>
+            href='https://twitch.uservoice.com/forums/310213-developers/suggestions/44000865-irc-request-follow-tag-to-filter-out-non-follower'>
             <div className={styles.icon} />
             <p>Twitch UserVoice - IRC Follow Tag</p>
             <div className={styles.icon} />
