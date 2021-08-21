@@ -133,6 +133,13 @@
   background-color: #7cd7fc;
 }
 
+.fanhouse {
+  color: #9c1c3e;
+  border-color: #b93256;
+  box-shadow: var(--shadow) #b93256;
+  background-color: #FF6C94;
+}
+
 .social:hover {
   --innerShadowColor: #fffb;
   --innerShadowBlur: 50px;
@@ -208,6 +215,11 @@
 .ko-fi .icon {
   mask-image: url('https://simpleicons.org/icons/kofi.svg');
   -webkit-mask-image: url('https://simpleicons.org/icons/kofi.svg');
+}
+
+.fanhouse .icon {
+  mask-image: url('https://simpleicons.org/icons/undertale.svg');
+  -webkit-mask-image: url('https://simpleicons.org/icons/undertale.svg')
 }
 
 .spotlight {

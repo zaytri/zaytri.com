@@ -95,6 +95,12 @@ export default function Home() {
             <p>YouTube</p>
             <div className={styles.icon} />
           </a>
+          <a className={[styles['fanhouse'], styles.social, 'row'].join(' ')}
+            href='https://fanhouse.app/zaytri'>
+            <div className={styles.icon} />
+            <p>Support me on Fanhouse</p>
+            <div className={styles.icon} />
+          </a>
           <a className={[styles['ko-fi'], styles.social, 'row'].join(' ')}
             href='https://ko-fi.com/zaytri'>
             <div className={styles.icon} />
