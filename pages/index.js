@@ -35,12 +35,6 @@ export default function Home() {
             <p>Twitch</p>
             <div className={styles.icon} />
           </a>
-          <a className={[styles.twitch, styles.social, 'row'].join(' ')}
-            href='https://twitch.uservoice.com/forums/310213-developers/suggestions/44000865-irc-request-follow-tag-to-filter-out-non-follower'>
-            <div className={styles.icon} />
-            <p>Twitch UserVoice: IRC Follow Tag</p>
-            <div className={styles.icon} />
-          </a>
           <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
             href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'>
             <div className={styles.icon} />
