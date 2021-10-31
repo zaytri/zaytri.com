@@ -38,7 +38,7 @@ export default function Home() {
           <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
             href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'>
             <div className={styles.icon} />
-            <p>Dynamic Chat Bubbles</p>
+            <p>Chat Bubbles</p>
             <div className={styles.icon} />
           </a>
           <a className={[styles.twitch, styles.widget, styles.social, 'row'].join(' ')}
