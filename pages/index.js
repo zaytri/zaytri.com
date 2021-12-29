@@ -44,20 +44,17 @@ export default function Home() {
 
         <div className={[styles.socialBox, 'column'].join(' ')}>
           <a
-            className={[styles.twitch, styles.social, 'row'].join(' ')}
-            href='https://www.twitch.tv/zaytri/profile'
+            className={[styles.widget, styles.social, styles.gold, 'row'].join(
+              ' ',
+            )}
+            href='https://twitter.com/imzaytri/status/1464451562248433664'
           >
             <div className={styles.icon} />
-            <p>Twitch</p>
+            <p>Commission Info</p>
             <div className={styles.icon} />
           </a>
           <a
-            className={[
-              styles.twitch,
-              styles.widget,
-              styles.social,
-              'row',
-            ].join(' ')}
+            className={[styles.widget, styles.social, 'row'].join(' ')}
             href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'
           >
             <div className={styles.icon} />
@@ -65,12 +62,7 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a
-            className={[
-              styles.twitch,
-              styles.widget,
-              styles.social,
-              'row',
-            ].join(' ')}
+            className={[styles.widget, styles.social, 'row'].join(' ')}
             href='https://strms.net/chat_leaderboard_by_zaytri'
           >
             <div className={styles.icon} />
@@ -78,12 +70,7 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a
-            className={[
-              styles.twitch,
-              styles.widget,
-              styles.social,
-              'row',
-            ].join(' ')}
+            className={[styles.widget, styles.social, 'row'].join(' ')}
             href='https://github.com/zaytri/stream-elements-widgets/tree/main/LevelUp/themes'
           >
             <div className={styles.icon} />
@@ -91,12 +78,7 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a
-            className={[
-              styles.twitch,
-              styles.widget,
-              styles.social,
-              'row',
-            ].join(' ')}
+            className={[styles.widget, styles.social, 'row'].join(' ')}
             href='https://strms.net/animated_gradient_frame_by_zaytri'
           >
             <div className={styles.icon} />
@@ -104,11 +86,11 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a
-            className={[styles['fanhouse'], styles.social, 'row'].join(' ')}
-            href='https://fanhouse.app/zaytri'
+            className={[styles.twitch, styles.social, 'row'].join(' ')}
+            href='https://www.twitch.tv/zaytri/profile'
           >
             <div className={styles.icon} />
-            <p>Support me on Fanhouse</p>
+            <p>Twitch</p>
             <div className={styles.icon} />
           </a>
           <a
@@ -149,6 +131,14 @@ export default function Home() {
           >
             <div className={styles.icon} />
             <p>YouTube</p>
+            <div className={styles.icon} />
+          </a>
+          <a
+            className={[styles['fanhouse'], styles.social, 'row'].join(' ')}
+            href='https://fanhouse.app/zaytri'
+          >
+            <div className={styles.icon} />
+            <p>Support me on Fanhouse</p>
             <div className={styles.icon} />
           </a>
           <a

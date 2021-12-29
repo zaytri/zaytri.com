@@ -1,5 +1,5 @@
 .container {
-  --easing: cubic-bezier(.87,-.41,.19,1.44);
+  --easing: cubic-bezier(0.87, -0.41, 0.19, 1.44);
   --enterTime: 1s;
   display: flex;
 }
@@ -26,12 +26,12 @@
 .message p:nth-child(2) {
   margin: 0;
   font-size: 3rem;
-  text-shadow:0 .25rem 0 #0003, 0 .4rem 0 #0001;
+  text-shadow: 0 0.25rem 0 #0003, 0 0.4rem 0 #0001;
 }
 
 .message p:nth-child(1) {
   font-size: 1.5rem;
-  text-shadow:0 .15rem 0 #0003, 0 .2rem 0 #0001;
+  text-shadow: 0 0.15rem 0 #0003, 0 0.2rem 0 #0001;
   margin-bottom: -1rem;
 }
 
@@ -58,10 +58,11 @@
 .social {
   --innerShadowColor: #fff4;
   --innerShadowBlur: 30px;
-  --shadow: inset 2px 10px var(--innerShadowBlur) 1px var(--innerShadowColor), 2px 2px 0 1px;
+  --shadow: inset 2px 10px var(--innerShadowBlur) 1px var(--innerShadowColor),
+    2px 2px 0 1px;
   width: 100%;
   max-width: 600px;
-  background-color: #000B;
+  background-color: #000b;
   padding: 10px 20px;
   margin-bottom: 20px;
   display: flex;
@@ -78,17 +79,17 @@
 }
 
 .twitch {
-  color: #601DC4;
-  border-color: #9146FF;
-  box-shadow: var(--shadow) #9146FF;
+  color: #601dc4;
+  border-color: #9146ff;
+  box-shadow: var(--shadow) #9146ff;
   background-color: #a970ff;
 }
 
 .discord {
-  color: #3951A5;
+  color: #3951a5;
   border-color: #7289da;
   box-shadow: var(--shadow) #7289da;
-  background-color: #87A1FF;
+  background-color: #87a1ff;
 }
 
 .tiktok {
@@ -107,8 +108,8 @@
 
 .twitter {
   color: #046fb2;
-  border-color: #1DA1F2;
-  box-shadow: var(--shadow) #1DA1F2;
+  border-color: #1da1f2;
+  box-shadow: var(--shadow) #1da1f2;
   background-color: #5dbffb;
 }
 
@@ -116,7 +117,7 @@
   color: #a31444;
   border-color: #cf3551;
   box-shadow: var(--shadow) #cf3551;
-  background-color: #F86E87;
+  background-color: #f86e87;
 }
 
 .github {
@@ -128,8 +129,8 @@
 
 .ko-fi {
   color: #0e83b1;
-  border-color: #29ABE0;
-  box-shadow: var(--shadow) #29ABE0;
+  border-color: #29abe0;
+  box-shadow: var(--shadow) #29abe0;
   background-color: #7cd7fc;
 }
 
@@ -137,7 +138,14 @@
   color: #9c1c3e;
   border-color: #b93256;
   box-shadow: var(--shadow) #b93256;
-  background-color: #FF6C94;
+  background-color: #ff6c94;
+}
+
+.gold {
+  color: #987a00;
+  border-color: #deb200;
+  box-shadow: var(--shadow) #deb200;
+  background-color: #eacf41;
 }
 
 .social:hover {
@@ -151,7 +159,7 @@
 }
 
 .icon {
-  transition: all .25s var(--easing);
+  transition: all 0.25s var(--easing);
 }
 
 .social p {
@@ -209,7 +217,7 @@
 
 .widget .icon {
   mask-image: url('https://simpleicons.org/icons/undertale.svg');
-  -webkit-mask-image: url('https://simpleicons.org/icons/undertale.svg')
+  -webkit-mask-image: url('https://simpleicons.org/icons/undertale.svg');
 }
 
 .ko-fi .icon {
@@ -219,7 +227,7 @@
 
 .fanhouse .icon {
   mask-image: url('https://simpleicons.org/icons/undertale.svg');
-  -webkit-mask-image: url('https://simpleicons.org/icons/undertale.svg')
+  -webkit-mask-image: url('https://simpleicons.org/icons/undertale.svg');
 }
 
 .spotlight {
@@ -242,7 +250,7 @@
   margin-bottom: calc(1vh * -3.5);
   opacity: 50%;
   transform-origin: bottom;
-  animation: scatter var( --enterTime) var(--easing);
+  animation: scatter var(--enterTime) var(--easing);
 }
 
 .spotlight div:nth-child(1) {
@@ -287,7 +295,7 @@
 
 @keyframes enter {
   from {
-    transform: scale(.1);
+    transform: scale(0.1);
     opacity: 0;
   }
 }
