@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className={[styles.socialBox, 'column'].join(' ')}>
-          <a
+          {/* <a
             className={[styles.widget, styles.social, styles.gold, 'row'].join(
               ' ',
             )}
@@ -52,7 +52,7 @@ export default function Home() {
             <div className={styles.icon} />
             <p>Commission Info</p>
             <div className={styles.icon} />
-          </a>
+          </a> */}
           <a
             className={[styles.widget, styles.social, 'row'].join(' ')}
             href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'
