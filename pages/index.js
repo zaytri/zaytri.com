@@ -40,19 +40,20 @@ export default function Home() {
         <div className={styles.message}>
           <p>You Have Entered</p>
           <p>[Zaytri Space]</p>
+          <p>business🍉zaytri.com</p>
         </div>
 
         <div className={[styles.socialBox, 'column'].join(' ')}>
-          {/* <a
+          <a
             className={[styles.widget, styles.social, styles.gold, 'row'].join(
               ' ',
             )}
-            href='https://twitter.com/imzaytri/status/1464451562248433664'
+            href='https://twitter.com/imzaytri/status/1576789605411479553'
           >
             <div className={styles.icon} />
             <p>Commission Info</p>
             <div className={styles.icon} />
-          </a> */}
+          </a>
           <a
             className={[styles.widget, styles.social, 'row'].join(' ')}
             href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'
@@ -86,21 +87,14 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a
-            className={[styles.twitch, styles.social, 'row'].join(' ')}
-            href='https://www.twitch.tv/zaytri/profile'
+            className={[styles['ko-fi'], styles.social, 'row'].join(' ')}
+            href='https://ko-fi.com/zaytri'
           >
             <div className={styles.icon} />
-            <p>Twitch</p>
+            <p>Tip me on Ko-fi</p>
             <div className={styles.icon} />
           </a>
-          <a
-            className={[styles.discord, styles.social, 'row'].join(' ')}
-            href='https://discord.gg/EbHbBFBcyy'
-          >
-            <div className={styles.icon} />
-            <p>Discord</p>
-            <div className={styles.icon} />
-          </a>
+
           <a
             className={[styles.twitter, styles.social, 'row'].join(' ')}
             href='https://twitter.com/imzaytri'
@@ -118,6 +112,23 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
           <a
+            className={[styles.twitch, styles.social, 'row'].join(' ')}
+            href='https://www.twitch.tv/zaytri/profile'
+          >
+            <div className={styles.icon} />
+            <p>Twitch</p>
+            <div className={styles.icon} />
+          </a>
+          <a
+            className={[styles.discord, styles.social, 'row'].join(' ')}
+            href='https://discord.gg/EbHbBFBcyy'
+          >
+            <div className={styles.icon} />
+            <p>Discord</p>
+            <div className={styles.icon} />
+          </a>
+
+          <a
             className={[styles.instagram, styles.social, 'row'].join(' ')}
             href='https://www.instagram.com/imzaytri'
           >
@@ -133,22 +144,7 @@ export default function Home() {
             <p>YouTube</p>
             <div className={styles.icon} />
           </a>
-          <a
-            className={[styles['fanhouse'], styles.social, 'row'].join(' ')}
-            href='https://fanhouse.app/zaytri'
-          >
-            <div className={styles.icon} />
-            <p>Support me on Fanhouse</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles['ko-fi'], styles.social, 'row'].join(' ')}
-            href='https://ko-fi.com/zaytri'
-          >
-            <div className={styles.icon} />
-            <p>Donate to me on Ko-fi</p>
-            <div className={styles.icon} />
-          </a>
+
           <a
             className={[styles.github, styles.social, 'row'].join(' ')}
             href='https://github.com/zaytri'
@@ -158,9 +154,6 @@ export default function Home() {
             <div className={styles.icon} />
           </a>
         </div>
-        <footer className={styles.footer}>
-          <p>Business Contact: business🍉zaytri.com</p>
-        </footer>
       </main>
     </div>
   )

@@ -29,7 +29,8 @@
   text-shadow: 0 0.25rem 0 #0003, 0 0.4rem 0 #0001;
 }
 
-.message p:nth-child(1) {
+.message p:nth-child(1),
+.message p:nth-child(3) {
   font-size: 1.5rem;
   text-shadow: 0 0.15rem 0 #0003, 0 0.2rem 0 #0001;
   margin-bottom: -1rem;
@@ -132,13 +133,6 @@
   border-color: #29abe0;
   box-shadow: var(--shadow) #29abe0;
   background-color: #7cd7fc;
-}
-
-.fanhouse {
-  color: #9c1c3e;
-  border-color: #b93256;
-  box-shadow: var(--shadow) #b93256;
-  background-color: #ff6c94;
 }
 
 .gold {
