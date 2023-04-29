@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import SocialButton from './components/SocialButton'
 
 export default function Home() {
   return (
@@ -44,115 +45,83 @@ export default function Home() {
         </div>
 
         <div className={[styles.socialBox, 'column'].join(' ')}>
-          <a
-            className={[styles.widget, styles.social, styles.gold, 'row'].join(
-              ' ',
-            )}
-            href='https://twitter.com/imzaytri/status/1576789605411479553'
-          >
-            <div className={styles.icon} />
-            <p>Commission Info</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles.widget, styles.social, 'row'].join(' ')}
-            href='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'
-          >
-            <div className={styles.icon} />
-            <p>Chat Bubbles</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles.widget, styles.social, 'row'].join(' ')}
-            href='https://strms.net/chat_leaderboard_by_zaytri'
-          >
-            <div className={styles.icon} />
-            <p>Chat Leaderboard</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles.widget, styles.social, 'row'].join(' ')}
-            href='https://github.com/zaytri/stream-elements-widgets/tree/main/LevelUp/themes'
-          >
-            <div className={styles.icon} />
-            <p>Chat Leaderboard Themes</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles.widget, styles.social, 'row'].join(' ')}
-            href='https://strms.net/animated_gradient_frame_by_zaytri'
-          >
-            <div className={styles.icon} />
-            <p>Animated Gradient Frame</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles['ko-fi'], styles.social, 'row'].join(' ')}
-            href='https://ko-fi.com/zaytri'
-          >
-            <div className={styles.icon} />
-            <p>Tip me on Ko-fi</p>
-            <div className={styles.icon} />
-          </a>
+          <SocialButton
+            classes={[styles.gold, styles.widget]}
+            url='https://twitter.com/imzaytri/status/1576789605411479553'
+            label='Commission Info'
+          />
 
-          <a
-            className={[styles.twitter, styles.social, 'row'].join(' ')}
-            href='https://twitter.com/imzaytri'
-          >
-            <div className={styles.icon} />
-            <p>Twitter</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles.tiktok, styles.social, 'row'].join(' ')}
-            href='https://www.tiktok.com/@imzaytri'
-          >
-            <div className={styles.icon} />
-            <p>TikTok</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles.twitch, styles.social, 'row'].join(' ')}
-            href='https://www.twitch.tv/zaytri/profile'
-          >
-            <div className={styles.icon} />
-            <p>Twitch</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles.discord, styles.social, 'row'].join(' ')}
-            href='https://discord.gg/EbHbBFBcyy'
-          >
-            <div className={styles.icon} />
-            <p>Discord</p>
-            <div className={styles.icon} />
-          </a>
+          <SocialButton
+            classes={[styles.widget]}
+            url='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'
+            label='Chat Bubbles'
+          />
 
-          <a
-            className={[styles.instagram, styles.social, 'row'].join(' ')}
-            href='https://www.instagram.com/imzaytri'
-          >
-            <div className={styles.icon} />
-            <p>Instagram</p>
-            <div className={styles.icon} />
-          </a>
-          <a
-            className={[styles.youtube, styles.social, 'row'].join(' ')}
-            href='https://www.youtube.com/channel/UC3dubq21i8gOD03BSOL-CbA'
-          >
-            <div className={styles.icon} />
-            <p>YouTube</p>
-            <div className={styles.icon} />
-          </a>
+          <SocialButton
+            classes={[styles.widget]}
+            url='https://strms.net/chat_leaderboard_by_zaytri'
+            label='Chat Leaderboard'
+          />
 
-          <a
-            className={[styles.github, styles.social, 'row'].join(' ')}
-            href='https://github.com/zaytri'
-          >
-            <div className={styles.icon} />
-            <p>Github</p>
-            <div className={styles.icon} />
-          </a>
+          <SocialButton
+            classes={[styles.widget]}
+            url='https://github.com/zaytri/stream-elements-widgets/tree/main/LevelUp/themes'
+            label='Chat Leaderboard Themes'
+          />
+
+          <SocialButton
+            classes={[styles.widget]}
+            url='https://strms.net/animated_gradient_frame_by_zaytri'
+            label='Animated Gradient Frame'
+          />
+
+          <SocialButton
+            classes={[styles['ko-fi']]}
+            url='https://ko-fi.com/zaytri'
+            label='Tip me on Ko-fi'
+          />
+
+          <SocialButton
+            classes={[styles.twitter]}
+            url='https://twitter.com/imzaytri'
+            label='Twitter'
+          />
+
+          <SocialButton
+            classes={[styles.tiktok]}
+            url='https://www.tiktok.com/@imzaytri'
+            label='TikTok'
+          />
+
+          <SocialButton
+            classes={[styles.twitch]}
+            url='https://www.twitch.tv/zaytri/profile'
+            label='Twitch'
+          />
+
+          <SocialButton
+            classes={[styles.discord]}
+            url='https://discord.gg/EbHbBFBcyy'
+            label='Discord'
+          />
+
+          <SocialButton
+            classes={[styles.instagram]}
+            url='https://www.instagram.com/imzaytri'
+            label='Instagram'
+          />
+
+          <SocialButton
+            classes={[styles.youtube]}
+            url='https://www.youtube.com/channel/UC3dubq21i8gOD03BSOL-CbA'
+            label='YouTube'
+          />
+
+          <SocialButton
+            classes={[styles.github]}
+            url='https://github.com/zaytri'
+            label='Github'
+          />
         </div>
       </main>
     </div>
