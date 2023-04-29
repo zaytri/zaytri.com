@@ -83,7 +83,7 @@ export default function Home() {
 
           <SocialButton
             classes={[styles.twitter]}
-            url='https://twitter.com/imzaytri'
+            url='https://twitter.com/imZaytri'
             label='Twitter'
           />
 
@@ -95,7 +95,7 @@ export default function Home() {
 
           <SocialButton
             classes={[styles.twitch]}
-            url='https://www.twitch.tv/zaytri/profile'
+            url='https://www.twitch.tv/zaytri'
             label='Twitch'
           />
 
@@ -113,7 +113,7 @@ export default function Home() {
 
           <SocialButton
             classes={[styles.youtube]}
-            url='https://www.youtube.com/channel/UC3dubq21i8gOD03BSOL-CbA'
+            url='https://www.youtube.com/channel/@imZaytri'
             label='YouTube'
           />
 
