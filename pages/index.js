@@ -113,7 +113,7 @@ export default function Home() {
 
           <SocialButton
             classes={[styles.youtube]}
-            url='https://www.youtube.com/channel/@imZaytri'
+            url='https://www.youtube.com/@imZaytri'
             label='YouTube'
           />
 
