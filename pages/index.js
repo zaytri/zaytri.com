@@ -45,11 +45,11 @@ export default function Home() {
         </div>
 
         <div className={[styles.socialBox, 'column'].join(' ')}>
-          <SocialButton
+          {/* <SocialButton
             classes={[styles.gold, styles.widget]}
             url='https://twitter.com/imzaytri/status/1576789605411479553'
             label='Commission Info'
-          />
+          /> */}
 
           <SocialButton
             classes={[styles.widget]}
