@@ -53,6 +53,12 @@ export default function Home() {
 
           <SocialButton
             classes={[styles.widget]}
+            url='https://docs.google.com/spreadsheets/d/1z60kAOtJTESQocGVLz33tv1u2Y9jilwtNU6f67Ww42g/edit#gid=0'
+            label='Palia Crop Boost Visualizer'
+          />
+
+          <SocialButton
+            classes={[styles.widget]}
             url='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'
             label='Chat Bubbles'
           />
