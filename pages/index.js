@@ -59,6 +59,12 @@ export default function Home() {
 
           <SocialButton
             classes={[styles.widget]}
+            url='https://accounts.palia.com/sign-up?referral=2cadc6ec-3d13-41e5-94d9-9281b450a8d8'
+            label='Play Palia (Referral Link)'
+          />
+
+          <SocialButton
+            classes={[styles.widget]}
             url='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'
             label='Chat Bubbles'
           />
