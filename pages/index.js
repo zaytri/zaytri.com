@@ -45,22 +45,16 @@ export default function Home() {
         </div>
 
         <div className={[styles.socialBox, 'column'].join(' ')}>
-          {/* <SocialButton
+          <SocialButton
             classes={[styles.gold, styles.widget]}
-            url='https://twitter.com/imzaytri/status/1576789605411479553'
-            label='Commission Info'
-          /> */}
+            url='https://ko-fi.com/s/203846e8fd'
+            label='Villager Chat'
+          />
 
           <SocialButton
             classes={[styles.widget]}
             url='https://docs.google.com/spreadsheets/d/1z60kAOtJTESQocGVLz33tv1u2Y9jilwtNU6f67Ww42g/edit#gid=0'
             label='Palia Garden Planner'
-          />
-
-          <SocialButton
-            classes={[styles.widget]}
-            url='https://accounts.palia.com/sign-up?referral=2cadc6ec-3d13-41e5-94d9-9281b450a8d8'
-            label='Play Palia (Referral Link)'
           />
 
           <SocialButton
