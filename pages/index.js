@@ -58,6 +58,12 @@ export default function Home() {
           />
 
           <SocialButton
+            classes={[styles['ko-fi']]}
+            url='https://ko-fi.com/zaytri'
+            label='Ko-fi Shop and Tips'
+          />
+
+          <SocialButton
             classes={[styles.widget]}
             url='https://docs.google.com/spreadsheets/d/1z60kAOtJTESQocGVLz33tv1u2Y9jilwtNU6f67Ww42g/edit#gid=0'
             label='Palia Garden Planner'
@@ -85,12 +91,6 @@ export default function Home() {
             classes={[styles.widget]}
             url='https://strms.net/animated_gradient_frame_by_zaytri'
             label='Animated Gradient Frame'
-          />
-
-          <SocialButton
-            classes={[styles['ko-fi']]}
-            url='https://ko-fi.com/zaytri'
-            label='Tip me on Ko-fi'
           />
 
           <SocialButton
