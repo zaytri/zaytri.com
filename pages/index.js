@@ -65,6 +65,12 @@ export default function Home() {
 
           <SocialButton
             classes={[styles.widget]}
+            url='https://slime2.stream/'
+            label='slime2'
+          />
+
+          <SocialButton
+            classes={[styles.widget]}
             url='https://docs.google.com/spreadsheets/d/1z60kAOtJTESQocGVLz33tv1u2Y9jilwtNU6f67Ww42g/edit#gid=0'
             label='Palia Garden Planner'
           />
