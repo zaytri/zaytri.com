@@ -4,10 +4,10 @@ import { Grandstander, Nunito } from 'next/font/google'
 import './globals.css'
 
 const title = {
-  default: 'Zaytri Zone',
+  default: 'Zaytri ~ Glitch Witch of Twitch',
   template: '%s ~ Zaytri Zone',
 }
-const description = 'Glitch Witch of Twitch! 🪄'
+const description = 'Welcome to the Zaytri Zone'
 
 export const metadata: Metadata = {
   title,
