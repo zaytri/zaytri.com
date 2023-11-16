@@ -5,10 +5,10 @@ import clsx from 'clsx'
 export default function Home() {
   return (
     <main className='flex h-full w-full flex-col items-center bg-gradient-to-b from-[#A9E694] to-white px-3 pt-16'>
-      <h1 className='font-grandstander bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center text-6xl font-extrabold text-transparent'>
+      <h1 className='bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center font-grandstander text-6xl font-extrabold text-transparent'>
         Zaytri Zone
       </h1>
-      <p className='font-grandstander mt-1 text-3xl font-bold text-emerald-700'>
+      <p className='mt-1 font-grandstander text-3xl font-bold text-emerald-700'>
         glitch witch of twitch
       </p>
       <div className='flex flex-1 flex-col gap-5 py-10 text-white'>
@@ -47,7 +47,7 @@ export default function Home() {
             </Group>
           )
         })}
-        <p className='font-grandstander pb-5 text-center text-xl font-bold text-emerald-700'>
+        <p className='pb-5 text-center font-grandstander text-xl font-bold text-emerald-700'>
           business🍉zaytri.com
         </p>
       </div>
@@ -61,7 +61,7 @@ type GroupProps = {
 
 function Group({ name, children }: React.PropsWithChildren<GroupProps>) {
   return (
-    <section className='font-nunito flex flex-col gap-3 rounded-xl border-[3px] border-emerald-800 bg-gradient-to-b from-emerald-700 to-green-600 p-5 [box-shadow:4px_4px_theme(colors.emerald[800]/25%)]'>
+    <section className='flex flex-col gap-3 rounded-xl border-[3px] border-emerald-800 bg-gradient-to-b from-emerald-700 to-green-600 p-5 font-nunito [box-shadow:4px_4px_theme(colors.emerald[800]/25%)]'>
       <h2 className='text-4xl font-extrabold text-lime-100 [text-shadow:2px_2px_theme(colors.emerald[800]/50%)]'>
         {name}
       </h2>
@@ -159,11 +159,18 @@ const groups = [
     name: 'support me',
     links: [
       {
+        text: 'etsy shop',
+        url: 'https://zaytri.etsy.com/',
+        image: '/etsy.png',
+        color: '#f1641d',
+      },
+      {
         text: 'ko-fi shop',
         url: 'https://ko-fi.com/zaytri/shop',
         image: '/ko-fi.svg',
         color: '#13c3ff',
       },
+
       {
         text: 'tips',
         url: 'https://ko-fi.com/zaytri',
