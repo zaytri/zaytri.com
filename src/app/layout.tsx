@@ -38,7 +38,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={clsx(nunito.variable, grandstander.variable)}>
+      <body
+        className={clsx(
+          nunito.variable,
+          grandstander.variable,
+          'bg-gradient-to-b from-[#A9E694] to-white bg-fixed',
+        )}
+      >
         {children}
       </body>
     </html>

@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 export default function Home() {
   return (
-    <main className='flex h-full w-full flex-col items-center bg-gradient-to-b from-[#A9E694] to-white px-3 pt-16'>
+    <main className='flex h-full w-full flex-col items-center px-3 pt-16'>
       <h1 className='bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center font-grandstander text-6xl font-extrabold text-transparent'>
         Zaytri Zone
       </h1>
