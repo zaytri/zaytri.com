@@ -115,6 +115,36 @@ const groups = [
     ],
   },
   {
+    name: 'support me',
+    links: [
+      {
+        text: 'etsy shop',
+        url: 'https://zaytri.etsy.com/',
+        image: '/etsy.png',
+        color: '#f1641d',
+      },
+      {
+        text: 'ko-fi shop',
+        url: 'https://ko-fi.com/zaytri/shop',
+        image: '/ko-fi.svg',
+        color: '#13c3ff',
+      },
+
+      {
+        text: 'tips',
+        url: 'https://ko-fi.com/zaytri',
+        image: '/ko-fi.svg',
+        color: '#13c3ff',
+      },
+      {
+        text: 'commissions',
+        url: 'https://ko-fi.com/zaytri/commissions',
+        image: '/ko-fi.svg',
+        color: '#13c3ff',
+      },
+    ],
+  },
+  {
     name: 'stream widgets',
     links: [
       {
@@ -155,36 +185,7 @@ const groups = [
       },
     ],
   },
-  {
-    name: 'support me',
-    links: [
-      {
-        text: 'etsy shop',
-        url: 'https://zaytri.etsy.com/',
-        image: '/etsy.png',
-        color: '#f1641d',
-      },
-      {
-        text: 'ko-fi shop',
-        url: 'https://ko-fi.com/zaytri/shop',
-        image: '/ko-fi.svg',
-        color: '#13c3ff',
-      },
 
-      {
-        text: 'tips',
-        url: 'https://ko-fi.com/zaytri',
-        image: '/ko-fi.svg',
-        color: '#13c3ff',
-      },
-      {
-        text: 'commissions',
-        url: 'https://ko-fi.com/zaytri/commissions',
-        image: '/ko-fi.svg',
-        color: '#13c3ff',
-      },
-    ],
-  },
   {
     name: 'projects',
     links: [
