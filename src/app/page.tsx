@@ -4,11 +4,11 @@ import clsx from 'clsx'
 
 export default function Home() {
   return (
-    <main className='flex h-full w-full flex-col items-center px-3 pt-16'>
-      <h1 className='bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center font-grandstander text-6xl font-extrabold text-transparent'>
+    <main className='flex h-full w-full flex-col items-center px-6 pt-16 md:px-3'>
+      <h1 className='bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center font-grandstander text-5xl font-extrabold text-transparent md:text-6xl'>
         Zaytri Zone
       </h1>
-      <p className='mt-1 font-grandstander text-3xl font-bold text-emerald-700'>
+      <p className='mt-1 font-grandstander text-xl font-bold text-emerald-700 md:text-3xl'>
         glitch witch of twitch
       </p>
       <div className='flex flex-1 flex-col gap-5 py-10 text-white'>
@@ -28,7 +28,7 @@ export default function Home() {
                     <div
                       style={{ backgroundColor: color }}
                       className={clsx(
-                        'relative flex h-20 w-20 items-center justify-center overflow-hidden rounded-2xl border-[3px] border-emerald-800 bg-white p-[14px] [box-shadow:3px_3px_theme(colors.emerald[800]/50%)] after:absolute after:left-0 after:top-0 after:h-1/2 after:w-full after:bg-white/20 after:content-[""] group-hover:border-white group-hover:after:h-full group-hover:after:bg-gradient-to-b group-hover:after:from-white/40 group-hover:after:to-white/10',
+                        'relative flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl border-[3px] border-emerald-800 bg-white p-[14px] [box-shadow:3px_3px_theme(colors.emerald[800]/50%)] after:absolute after:left-0 after:top-0 after:h-1/2 after:w-full after:bg-white/20 after:content-[""] group-hover:border-white group-hover:after:h-full group-hover:after:bg-gradient-to-b group-hover:after:from-white/40 group-hover:after:to-white/10 md:h-20 md:w-20',
                         text === 'instagram' && 'instagram',
                       )}
                     >
@@ -38,7 +38,7 @@ export default function Home() {
                         alt=''
                       />
                     </div>
-                    <p className='-mx-2 text-center text-lg font-bold [text-shadow:2px_2px_theme(colors.emerald[800]/50%)]'>
+                    <p className='text-center text-sm font-bold [text-shadow:2px_2px_theme(colors.emerald[800]/50%)] md:-mx-2 md:text-lg'>
                       {text}
                     </p>
                   </a>
@@ -62,10 +62,10 @@ type GroupProps = {
 function Group({ name, children }: React.PropsWithChildren<GroupProps>) {
   return (
     <section className='flex flex-col gap-3 rounded-xl border-[3px] border-emerald-800 bg-gradient-to-b from-emerald-700 to-green-600 p-5 font-nunito [box-shadow:4px_4px_theme(colors.emerald[800]/25%)]'>
-      <h2 className='text-4xl font-extrabold text-lime-100 [text-shadow:2px_2px_theme(colors.emerald[800]/50%)]'>
+      <h2 className='text-3xl font-extrabold text-lime-100 [text-shadow:2px_2px_theme(colors.emerald[800]/50%)] md:text-4xl'>
         {name}
       </h2>
-      <div className='grid grid-cols-3 flex-wrap gap-5 md:grid-cols-4 lg:grid-cols-6'>
+      <div className='grid grid-cols-3 flex-wrap gap-3 md:grid-cols-4 md:gap-5 lg:grid-cols-6'>
         {children}
       </div>
     </section>
