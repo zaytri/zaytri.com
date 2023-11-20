@@ -8,6 +8,11 @@ export default function Home() {
       <h1 className='bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center font-grandstander text-5xl font-extrabold text-transparent md:text-6xl'>
         Zaytri Zone
       </h1>
+      <img
+        src='/zaytri.jpg'
+        className='my-3 h-48 w-48 rounded-xl border-[3px] border-emerald-800 [box-shadow:4px_4px_theme(colors.emerald[800]/25%)] md:h-60 md:w-60'
+        alt='profile picture'
+      />
       <p className='mt-1 font-grandstander text-xl font-bold text-emerald-700 md:text-3xl'>
         glitch witch of twitch
       </p>
