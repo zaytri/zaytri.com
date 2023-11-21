@@ -123,12 +123,6 @@ const groups = [
     name: 'support me',
     links: [
       {
-        text: 'etsy shop',
-        url: 'https://zaytri.etsy.com/',
-        image: '/etsy.png',
-        color: '#f1641d',
-      },
-      {
         text: 'ko-fi shop',
         url: 'https://ko-fi.com/zaytri/shop',
         image: '/ko-fi.svg',
