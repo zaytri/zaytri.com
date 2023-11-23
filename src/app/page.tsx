@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className='flex h-full w-full flex-col items-center px-6 pt-16 md:px-3'>
       <h1 className='bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center font-grandstander text-5xl font-extrabold text-transparent md:text-6xl'>
-        Zaytri Zone
+        Zaytri
       </h1>
       <img
         src='/zaytri.jpg'
