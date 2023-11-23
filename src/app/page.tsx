@@ -123,21 +123,20 @@ const groups = [
     name: 'support me',
     links: [
       {
-        text: 'ko-fi shop',
+        text: 'shop',
         url: 'https://ko-fi.com/zaytri/shop',
-        image: '/ko-fi.svg',
-        color: '#13c3ff',
-      },
-
-      {
-        text: 'tips',
-        url: 'https://ko-fi.com/zaytri',
         image: '/ko-fi.svg',
         color: '#13c3ff',
       },
       {
         text: 'commissions',
-        url: 'https://ko-fi.com/zaytri/commissions',
+        url: 'https://vgen.co/Zaytri',
+        image: '/vgen.png',
+        color: '#B8FF26',
+      },
+      {
+        text: 'tips',
+        url: 'https://ko-fi.com/zaytri',
         image: '/ko-fi.svg',
         color: '#13c3ff',
       },
@@ -209,99 +208,3 @@ const groups = [
     ],
   },
 ]
-
-// <SocialButton
-//             classes={[styles.gold, styles.widget]}
-//             url='https://ko-fi.com/s/203846e8fd'
-//             label='Villager Chat'
-//           />
-
-//           <SocialButton
-//             classes={[styles.gold, styles.widget]}
-//             url='https://ko-fi.com/zaytri/commissions'
-//             label='Chat Commissions'
-//           />
-
-//           <SocialButton
-//             classes={[styles['ko-fi']]}
-//             url='https://ko-fi.com/zaytri'
-//             label='Ko-fi Shop and Tips'
-//           />
-
-//           <SocialButton
-//             classes={[styles.widget]}
-//             url='https://slime2.stream/'
-//             label='slime2'
-//           />
-
-//           <SocialButton
-//             classes={[styles.widget]}
-//             url='https://docs.google.com/spreadsheets/d/1z60kAOtJTESQocGVLz33tv1u2Y9jilwtNU6f67Ww42g/edit#gid=0'
-//             label='Palia Garden Planner'
-//           />
-
-//           <SocialButton
-//             classes={[styles.widget]}
-//             url='https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37'
-//             label='Chat Bubbles'
-//           />
-
-//           <SocialButton
-//             classes={[styles.widget]}
-//             url='https://strms.net/chat_leaderboard_by_zaytri'
-//             label='Chat Leaderboard'
-//           />
-
-//           <SocialButton
-//             classes={[styles.widget]}
-//             url='https://github.com/zaytri/stream-elements-widgets/tree/main/LevelUp/themes'
-//             label='Chat Leaderboard Themes'
-//           />
-
-//           <SocialButton
-//             classes={[styles.widget]}
-//             url='https://strms.net/animated_gradient_frame_by_zaytri'
-//             label='Animated Gradient Frame'
-//           />
-
-//           <SocialButton
-//             classes={[styles.twitter]}
-//             url='https://twitter.com/imZaytri'
-//             label='Twitter'
-//           />
-
-//           <SocialButton
-//             classes={[styles.tiktok]}
-//             url='https://www.tiktok.com/@imzaytri'
-//             label='TikTok'
-//           />
-
-//           <SocialButton
-//             classes={[styles.twitch]}
-//             url='https://www.twitch.tv/zaytri'
-//             label='Twitch'
-//           />
-
-//           <SocialButton
-//             classes={[styles.discord]}
-//             url='https://discord.gg/EbHbBFBcyy'
-//             label='Discord'
-//           />
-
-//           <SocialButton
-//             classes={[styles.instagram]}
-//             url='https://www.instagram.com/imzaytri'
-//             label='Instagram'
-//           />
-
-//           <SocialButton
-//             classes={[styles.youtube]}
-//             url='https://www.youtube.com/@imZaytri'
-//             label='YouTube'
-//           />
-
-//           <SocialButton
-//             classes={[styles.github]}
-//             url='https://github.com/zaytri'
-//             label='Github'
-//           />
