@@ -33,15 +33,11 @@ export default function Home() {
                     <div
                       style={{ backgroundColor: color }}
                       className={clsx(
-                        'relative flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl border-[3px] border-emerald-800 bg-white p-[14px] [box-shadow:3px_3px_theme(colors.emerald[800]/50%)] after:absolute after:left-0 after:top-0 after:h-1/2 after:w-full after:bg-white/20 after:content-[""] group-hover:border-white group-hover:after:h-full group-hover:after:bg-gradient-to-b group-hover:after:from-white/40 group-hover:after:to-white/10 md:h-20 md:w-20',
+                        'relative flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl border-[3px] border-emerald-800 bg-white p-3 after:absolute after:left-0 after:top-0 after:h-1/2 after:w-full after:bg-white/20 after:content-[""] group-hover:border-white group-hover:after:h-full group-hover:after:bg-gradient-to-b group-hover:after:from-white/40 group-hover:after:to-white/10 md:h-20 md:w-20',
                         text === 'instagram' && 'instagram',
                       )}
                     >
-                      <img
-                        className='drop-shadow-[3px_3px_theme(colors.black/10%)]'
-                        src={image}
-                        alt=''
-                      />
+                      <img src={image} alt='' className='h-full' />
                     </div>
                     <p className='text-center text-sm font-bold [text-shadow:2px_2px_theme(colors.emerald[800]/50%)] md:-mx-2 md:text-lg'>
                       {text}
