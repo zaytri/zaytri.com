@@ -142,20 +142,26 @@ const groups = [
     name: 'stream widgets',
     links: [
       {
-        text: 'villager chat',
-        url: 'https://ko-fi.com/s/203846e8fd',
+        text: 'simple chat',
+        url: 'https://forums.slime2.stream/resources/simple-chat.10/',
         image: '/slime2.svg',
         color: '#399118',
       },
       {
-        text: 'simple chat',
-        url: 'https://ko-fi.com/s/29673d4dbf',
+        text: 'villager chat',
+        url: 'https://forums.slime2.stream/resources/villager-chat.9/',
         image: '/slime2.svg',
         color: '#399118',
       },
       {
         text: 'scrolling chat',
-        url: 'https://ko-fi.com/s/86ce7a796b',
+        url: 'https://forums.slime2.stream/resources/scrolling-chat.13/',
+        image: '/slime2.svg',
+        color: '#399118',
+      },
+      {
+        text: 'dvd bounce',
+        url: 'https://forums.slime2.stream/resources/dvd-bounce.16/',
         image: '/slime2.svg',
         color: '#399118',
       },
