@@ -166,6 +166,12 @@ const groups = [
         color: '#399118',
       },
       {
+        text: 'animated gradient',
+        url: 'https://forums.slime2.stream/resources/animated-gradient-frame-rounded-border-mask.17/',
+        image: '/slime2.svg',
+        color: '#399118',
+      },
+      {
         text: 'chat bubbles',
         url: 'https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37',
         image: '/streamelements.png',
@@ -174,12 +180,6 @@ const groups = [
       {
         text: 'chat leaderboard',
         url: 'https://strms.net/chat_leaderboard_by_zaytri',
-        image: '/streamelements.png',
-        color: '#020923',
-      },
-      {
-        text: 'gradient frame',
-        url: 'https://strms.net/animated_gradient_frame_by_zaytri',
         image: '/streamelements.png',
         color: '#020923',
       },
