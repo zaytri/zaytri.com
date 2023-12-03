@@ -142,8 +142,8 @@ const groups = [
     name: 'stream widgets',
     links: [
       {
-        text: 'simple chat',
-        url: 'https://forums.slime2.stream/resources/simple-chat.10/',
+        text: 'slime chat',
+        url: 'https://forums.slime2.stream/resources/slime-chat.10/',
         image: '/slime2.svg',
         color: '#399118',
       },
