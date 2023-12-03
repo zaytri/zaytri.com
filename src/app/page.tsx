@@ -69,6 +69,24 @@ function Group({ name, children }: React.PropsWithChildren<GroupProps>) {
       <div className='grid grid-cols-3 flex-wrap gap-3 md:grid-cols-4 md:gap-5 lg:grid-cols-6'>
         {children}
       </div>
+      {name.includes('legacy') && (
+        <>
+          <p className='font-semibold [text-shadow:2px_2px_theme(colors.emerald[800]/50%)]'>
+            These are only here because I have not yet transitioned them to
+            slime2.
+          </p>
+          <p className='-mt-3 font-bold [text-shadow:2px_2px_theme(colors.emerald[800]/50%)]'>
+            Fuck StreamElements for being{' '}
+            <a
+              href='https://twitter.com/TheCafeEla/status/1728081727090749489'
+              className='text-lime-200 underline [text-shadow:none]'
+            >
+              led by anti-Palestinian Zionists
+            </a>
+            .
+          </p>
+        </>
+      )}
     </section>
   )
 }
@@ -171,21 +189,8 @@ const groups = [
         image: '/slime2.svg',
         color: '#399118',
       },
-      {
-        text: 'chat bubbles',
-        url: 'https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37',
-        image: '/streamelements.png',
-        color: '#020923',
-      },
-      {
-        text: 'chat leaderboard',
-        url: 'https://strms.net/chat_leaderboard_by_zaytri',
-        image: '/streamelements.png',
-        color: '#020923',
-      },
     ],
   },
-
   {
     name: 'projects',
     links: [
@@ -206,6 +211,23 @@ const groups = [
         url: 'https://github.com/zaytri',
         image: '/github.svg',
         color: '#24292f',
+      },
+    ],
+  },
+  {
+    name: 'legacy stream widgets',
+    links: [
+      {
+        text: 'chat bubbles',
+        url: 'https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37',
+        image: '/streamelements.png',
+        color: '#020923',
+      },
+      {
+        text: 'chat leaderboard',
+        url: 'https://strms.net/chat_leaderboard_by_zaytri',
+        image: '/streamelements.png',
+        color: '#020923',
       },
     ],
   },
