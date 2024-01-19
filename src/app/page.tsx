@@ -217,21 +217,4 @@ const groups = [
       },
     ],
   },
-  {
-    name: 'legacy stream widgets',
-    links: [
-      {
-        text: 'chat bubbles',
-        url: 'https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37',
-        image: '/streamelements.png',
-        color: '#020923',
-      },
-      {
-        text: 'chat leaderboard',
-        url: 'https://strms.net/chat_leaderboard_by_zaytri',
-        image: '/streamelements.png',
-        color: '#020923',
-      },
-    ],
-  },
 ]
