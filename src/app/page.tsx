@@ -130,7 +130,7 @@ const groups = [
       },
       {
         text: 'discord',
-        url: 'https://discord.gg/EbHbBFBcyy',
+        url: 'https://discord.gg/GWVwJ2ePuk',
         image: '/discord.svg',
         color: '#5865f2',
       },
