@@ -12,8 +12,8 @@ export default function Home() {
         nonbinary (she/her)
       </p>
       <img
-        src='/zaytri.jpg'
-        className='my-3 h-48 w-48 rounded-xl border-[3px] border-emerald-800 [box-shadow:4px_4px_theme(colors.emerald[800]/25%)] md:h-60 md:w-60'
+        src='/zaytri.webp'
+        className='my-3 h-48 w-48 rounded-xl border-[3px] border-emerald-800 bg-gradient-to-b from-emerald-700 to-green-600 [box-shadow:4px_4px_theme(colors.emerald[800]/25%)] md:h-60 md:w-60'
         alt='profile picture'
       />
       <p className='mt-1 font-grandstander text-xl font-bold text-emerald-700 md:text-3xl'>
