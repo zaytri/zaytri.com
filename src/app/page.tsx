@@ -105,10 +105,10 @@ const groups = [
         color: '#9146ff',
       },
       {
-        text: 'twitter',
-        url: 'https://twitter.com/imZaytri',
-        image: '/twitter.svg',
-        color: '#1d9bf0',
+        text: 'bluesky',
+        url: 'https://bsky.app/profile/zaytri.com',
+        image: '/bluesky.svg',
+        color: '#1185fe',
       },
       {
         text: 'tiktok',
