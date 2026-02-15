@@ -5,8 +5,8 @@ import clsx from 'clsx'
 export default function Home() {
   return (
     <main className='flex h-full w-full flex-col items-center px-6 pt-16 md:px-3'>
-      <h1 className='bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center font-grandstander text-5xl font-extrabold text-transparent md:text-6xl'>
-        Zaytri
+      <h1 className='bg-gradient-to-b from-emerald-700 to-green-600 bg-clip-text text-center font-grandstander text-6xl font-extrabold text-transparent'>
+        <span className='text-7xl'>Z</span>aytri
       </h1>
       <p className='font-grandstander font-bold text-emerald-700'>
         nonbinary (she/her)
@@ -16,10 +16,14 @@ export default function Home() {
         className='my-3 h-48 w-48 rounded-xl border-[3px] border-emerald-800 bg-gradient-to-b from-emerald-700 to-green-600 [box-shadow:4px_4px_theme(colors.emerald[800]/25%)] md:h-60 md:w-60'
         alt='profile picture'
       />
-      <p className='mt-1 font-grandstander text-xl font-bold text-emerald-700 md:text-3xl'>
-        glitch witch of twitch
+      <p className='mt-1 font-grandstander text-3xl font-bold text-emerald-700'>
+        Glitch Witch
       </p>
-      <div className='flex flex-1 flex-col gap-5 py-10 text-white'>
+      <p className='text-center font-grandstander font-bold text-emerald-700'>
+        business🍉zaytri.com
+      </p>
+
+      <div className='flex flex-1 flex-col gap-5 pb-16 pt-5 text-white'>
         {groups.map(group => {
           const { name, links } = group
 
@@ -51,9 +55,6 @@ export default function Home() {
             </Group>
           )
         })}
-        <p className='pb-5 text-center font-grandstander text-xl font-bold text-emerald-700'>
-          business🍉zaytri.com
-        </p>
       </div>
     </main>
   )
@@ -72,31 +73,13 @@ function Group({ name, children }: React.PropsWithChildren<GroupProps>) {
       <div className='grid grid-cols-3 flex-wrap gap-3 md:grid-cols-4 md:gap-5 lg:grid-cols-6'>
         {children}
       </div>
-      {name.includes('legacy') && (
-        <>
-          <p className='font-semibold [text-shadow:2px_2px_theme(colors.emerald[800]/50%)]'>
-            These are only here because I have not yet transitioned them to
-            slime2.
-          </p>
-          <p className='-mt-3 font-bold [text-shadow:2px_2px_theme(colors.emerald[800]/50%)]'>
-            Fuck StreamElements for being{' '}
-            <a
-              href='https://twitter.com/TheCafeEla/status/1728081727090749489'
-              className='text-lime-200 underline [text-shadow:none]'
-            >
-              led by anti-Palestinian Zionists
-            </a>
-            .
-          </p>
-        </>
-      )}
     </section>
   )
 }
 
 const groups = [
   {
-    name: 'socials',
+    name: 'Socials',
     links: [
       {
         text: 'twitch',
@@ -111,22 +94,10 @@ const groups = [
         color: '#1185fe',
       },
       {
-        text: 'tiktok',
-        url: 'https://www.tiktok.com/@imzaytri',
-        image: '/tiktok.svg',
-        color: '#000000',
-      },
-      {
         text: 'youtube',
         url: 'https://www.youtube.com/@imZaytri',
         image: '/youtube.svg',
         color: '#ffffff',
-      },
-      {
-        text: 'instagram',
-        url: 'https://www.instagram.com/imzaytri',
-        image: '/instagram.svg',
-        color: '#ea33aa',
       },
       {
         text: 'discord',
@@ -137,7 +108,7 @@ const groups = [
     ],
   },
   {
-    name: 'support me',
+    name: 'Support Me',
     links: [
       {
         text: 'shop',
@@ -160,7 +131,7 @@ const groups = [
     ],
   },
   {
-    name: 'stream widgets',
+    name: 'Stream Widgets',
     links: [
       {
         text: 'slime chat',
@@ -195,7 +166,7 @@ const groups = [
     ],
   },
   {
-    name: 'projects',
+    name: 'Projects',
     links: [
       {
         text: 'slime2',
