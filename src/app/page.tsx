@@ -82,28 +82,28 @@ const groups = [
     name: 'Socials',
     links: [
       {
-        text: 'twitch',
+        text: 'Twitch',
         url: 'https://www.twitch.tv/zaytri',
         image: '/twitch.svg',
         color: '#9146ff',
       },
       {
-        text: 'bluesky',
+        text: 'Bluesky',
         url: 'https://bsky.app/profile/zaytri.com',
         image: '/bluesky.svg',
         color: '#1185fe',
       },
       {
-        text: 'youtube',
-        url: 'https://www.youtube.com/@imZaytri',
-        image: '/youtube.svg',
-        color: '#ffffff',
-      },
-      {
-        text: 'discord',
+        text: 'Discord',
         url: 'https://discord.gg/GWVwJ2ePuk',
         image: '/discord.svg',
         color: '#5865f2',
+      },
+      {
+        text: 'YouTube',
+        url: 'https://www.youtube.com/@imZaytri',
+        image: '/youtube.svg',
+        color: '#ffffff',
       },
     ],
   },
@@ -112,13 +112,7 @@ const groups = [
     links: [
       {
         text: 'shop',
-        url: 'https://ko-fi.com/zaytri/shop',
-        image: '/ko-fi.svg',
-        color: '#13c3ff',
-      },
-      {
-        text: 'commissions',
-        url: 'https://vgen.co/Zaytri',
+        url: 'https://vgen.co/Zaytri/shop',
         image: '/vgen.png',
         color: '#B8FF26',
       },
@@ -134,54 +128,30 @@ const groups = [
     name: 'Stream Widgets',
     links: [
       {
-        text: 'slime chat',
-        url: 'https://forums.slime2.stream/resources/slime-chat.10/',
-        image: '/slime2.svg',
-        color: '#399118',
+        text: 'Slime2 Widget Manager',
+        url: 'https://slime2.stream/',
+        image: '/slime2.png',
+        color: '#72B821',
       },
       {
-        text: 'villager chat',
-        url: 'https://forums.slime2.stream/resources/villager-chat.9/',
-        image: '/slime2.svg',
-        color: '#399118',
-      },
-      {
-        text: 'scrolling chat',
-        url: 'https://forums.slime2.stream/resources/scrolling-chat.13/',
-        image: '/slime2.svg',
-        color: '#399118',
-      },
-      {
-        text: 'dvd bounce',
-        url: 'https://forums.slime2.stream/resources/dvd-bounce.16/',
-        image: '/slime2.svg',
-        color: '#399118',
-      },
-      {
-        text: 'animated gradient',
-        url: 'https://forums.slime2.stream/resources/animated-gradient-frame-rounded-border-mask.17/',
-        image: '/slime2.svg',
-        color: '#399118',
+        text: 'Nametag Chat Bubbles',
+        url: 'https://vgen.co/Zaytri/product/nametag-chat-bubbles/57d168c7-eed2-4ae2-b7dd-b1d9d625dd98',
+        image: '/slime2.png',
+        color: '#72B821',
       },
     ],
   },
   {
-    name: 'Projects',
+    name: 'Other Projects',
     links: [
       {
-        text: 'slime2',
-        url: 'https://slime2.stream/',
-        image: '/slime2.svg',
-        color: '#399118',
-      },
-      {
-        text: 'palia garden planner',
+        text: 'Palia Garden Planner',
         url: 'https://docs.google.com/spreadsheets/d/1z60kAOtJTESQocGVLz33tv1u2Y9jilwtNU6f67Ww42g/edit#gid=0',
         image: '/palia.png',
         color: '#61b5da',
       },
       {
-        text: 'github',
+        text: 'GitHub',
         url: 'https://github.com/zaytri',
         image: '/github.svg',
         color: '#24292f',
